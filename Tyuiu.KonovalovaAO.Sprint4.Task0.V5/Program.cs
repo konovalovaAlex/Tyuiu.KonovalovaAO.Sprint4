@@ -37,6 +37,7 @@ namespace Tyuiu.KonovalovaAO.Sprint4.Task0.V5
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine(" Сумма четных элементов массива: " + ds.GetSumEvenArrEl(numsArray));
+          
             Console.ReadKey();
         }
     }

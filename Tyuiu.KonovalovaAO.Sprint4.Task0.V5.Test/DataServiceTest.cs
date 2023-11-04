@@ -9,6 +9,7 @@ namespace Tyuiu.KonovalovaAO.Sprint4.Task0.V5.Test
         [TestMethod]
         public void TestMethod1()
         {
+
             DataService ds = new DataService();
             int[] numsArray = { 4, 3, 5, 6, 7, 8, 9, 2 };
             int res = ds.GetSumEvenArrEl(numsArray);
